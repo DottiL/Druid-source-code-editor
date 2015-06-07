@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
     android:id="@+id/templates_item"
     android:textSize="15dp"
     android:gravity="center"
-    android:paddingTop="5dp"
-    android:paddingBottom="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="@drawable/templates_item_stroke"
     android:textColor="@android:color/white"/>
