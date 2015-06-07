@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f74afbb298411d8832e990b8f665cbf7cbad24f1.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/libs/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-7c011ff968eb9ee3d5d6793d1febcf15597eac7b.jar" />
+    </item>
+    <item
+        jar="/Users/Green/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9e5098980e14c5809367391026d08ea63a621299.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/exploded-aar/com.github.bmelnychuk/atv/1.2.4/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1693b0d3e4c40f1544d117c5ad75e9d2ffce3c84">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/classes-ba398cb33d9f21a85a40531d17072ad8830ea269.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/classes-ad4e9710841a39dce5311502e7ccf21f09c2e875.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/classes-65a98bdfcd40641020a045e8f1fbaabe9a47c41d.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/libs/dropbox-sync-sdk-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="45fb26781bc311772660c697996801f8f39d3ce0">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/dropbox-sync-sdk-android-65d35976597f4c19ddae945a395e551e4a49a13a.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/exploded-aar/com.github.johnkil.print/print/1.2.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b1a39a578e5b54e6c5930a1e2e77d7cad509a14">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/classes-95be7e72c9602ae1bc06201a29bc983c9054ff91.jar" />
+    </item>
+    <item
+        jar="/Users/Green/AndroidStudioProjects/BachelorProject/app/libs/jnotify-0.93.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="883498a7094983f6566be5e5b7383598e7618aa9">
+        <dex dex="/Users/Green/AndroidStudioProjects/BachelorProject/app/build/intermediates/pre-dexed/debug/jnotify-0.93-ba00a56c669feff4d900b3e6663aeddb37f5076f.jar" />
+    </item>
+
+</items>

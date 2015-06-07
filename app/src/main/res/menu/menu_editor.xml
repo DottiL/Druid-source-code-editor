@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Editor">
+
+    <item android:id="@+id/action_new_file" android:title="New"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_save_as" android:title="Save as"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_open" android:title="Open"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_force_syntax" android:title="Force syntax"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_add_syntax" android:title="Add syntax"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

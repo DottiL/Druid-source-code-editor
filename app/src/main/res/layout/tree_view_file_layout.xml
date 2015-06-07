@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.github.johnkil.print.PrintView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tree_view_folder_arrow"
+        app:iconColor="#ff464646"
+        app:iconFont="fonts/material-icon-font.ttf"
+        app:iconSize="@dimen/tree_view_node_icon_dim"/>
+
+    <com.github.johnkil.print.PrintView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tree_view_folder_arrow"
+        android:id="@+id/tree_view_file_image"
+        app:iconColor="#000000"
+        app:iconFont="fonts/material-icon-font.ttf"
+        app:iconSize="@dimen/tree_view_node_icon_dim"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tree_view_file_text"
+        android:layout_toEndOf="@+id/tree_view_file_image"
+        android:paddingLeft="2dp"
+        android:textSize="@dimen/tree_view_node_text_dim"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New file"
+        android:layout_toStartOf="@+id/tree_view_file_new_folder"
+        android:id="@+id/tree_view_file_new_file"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New folder"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tree_view_file_new_folder"
+        android:layout_toStartOf="@+id/tree_view_file_open_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tree_view_file_open_button"/>
+
+</RelativeLayout>

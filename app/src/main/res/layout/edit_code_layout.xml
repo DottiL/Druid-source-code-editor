@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/codeScrollView"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_view"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/container">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/lines_stroke"
+            android:textColor="@android:color/white"
+            android:text="@string/first_line"
+            android:textSize="15dp"
+            android:editable="false"
+            android:gravity="right"
+            android:id="@+id/edit_code_lines_view"/>
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingTop="6dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/lines_stroke"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="12dp"-->
+
+            <!--android:id="@+id/edit_code_lines_view"/>-->
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:scrollHorizontally="true"
+            android:isScrollContainer="true">
+
+            <com.example.green.bachelorproject.customViews.codeEditView.TouchEditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/code_stroke"
+                android:gravity="top"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:scrollHorizontally="true"
+                android:id="@+id/edit_code_content_view"
+                android:inputType="textMultiLine|textNoSuggestions|textVisiblePassword"
+                android:imeOptions="flagNoExtractUi"
+
+                android:dropDownAnchor="@id/codeScrollView"
+                android:privateImeOptions="nm"/>
+
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

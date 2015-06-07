@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tree_view_item_selected">#AA636363</color>
+    <color name="tree_view_item_not_selected">#ffffff</color>
+    <color name="code_background">#202422</color>
+    <color name="white">#ffffff</color>
+    <color name="Keywords">#F7276A</color>
+    <color name="Operators">#F7276A</color>
+    <color name="Types">#41AAE9</color>
+    <color name="Strings">#E6DD5E</color>
+    <color name="Characters">#E6DD5E</color>
+    <color name="Numbers">#AD7DFF</color>
+    <color name="top_bar">#ff6a6a6a</color>
+    <color name="templates">#FF4A4A4A</color>
+
+
+</resources>

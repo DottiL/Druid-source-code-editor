@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/tab_bg_selector"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigator_file_view_root"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="X"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/navigator_file_view_close_button"
+        android:textColor="@drawable/text_color"/>
+
+    <com.github.johnkil.print.PrintView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:iconColor="#000000"
+        app:iconFont="fonts/material-icon-font.ttf"
+        app:iconSize="@dimen/tree_view_node_icon_dim"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/navigator_file_view_close_button"
+        android:id="@+id/navigator_file_view_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/navigator_file_view_icon"
+        android:id="@+id/navigator_file_view_name"
+        android:textColor="@drawable/text_color"/>
+
+</RelativeLayout>

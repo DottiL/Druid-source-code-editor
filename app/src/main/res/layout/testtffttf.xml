@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:print="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/main_layout_bottom_bar"
+        android:background="@color/top_bar"
+
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/container2"
+            android:id="@+id/container1">
+
+            <com.github.johnkil.print.PrintView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_layout_templates_button"
+                app:iconColor="#FFFFFF"
+                app:iconFont="fonts/material-icon-font.ttf"
+                app:iconSize="25dp"
+                android:padding="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                print:iconText="@string/ic_pages"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Navigator"
+                android:popupBackground="@color/top_bar"
+                android:layout_centerVertical="true"
+                android:background="@color/top_bar"
+                android:id="@+id/main_layout_navigator_button"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/main_layout_templates_button"
+                android:layout_toEndOf="@+id/main_layout_templates_button"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/container2">
+
+            <com.github.johnkil.print.PrintView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/main_layout_save_button"
+                app:iconColor="#FFFFFF"
+                app:iconFont="fonts/material-icon-font.ttf"
+                app:iconSize="25dp"
+                android:padding="5dp"
+                print:iconText="@string/ic_save"/>
+
+            <com.github.johnkil.print.PrintView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_layout_keyboard_button"
+                app:iconColor="#FFFFFF"
+                app:iconFont="fonts/material-icon-font.ttf"
+                app:iconSize="25dp"
+                android:padding="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/main_layout_save_button"
+                print:iconText="@string/ic_keyboard"/>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

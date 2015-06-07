@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:print="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/open_file_item_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/open_file_item_close" />
+
+    <com.github.johnkil.print.PrintView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_file_item_close"
+        app:iconColor="#FFFFFF"
+        app:iconFont="fonts/material-icon-font.ttf"
+        app:iconSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        print:iconText="@string/ic_close"/>
+</RelativeLayout>
