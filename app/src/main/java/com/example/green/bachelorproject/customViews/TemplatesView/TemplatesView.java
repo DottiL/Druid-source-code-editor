@@ -157,7 +157,7 @@ public class TemplatesView extends RelativeLayout {
                 count = ss.length();
             }
         }
-        statementsGrid.setColumnWidth(count*15);
+        statementsGrid.setColumnWidth(count*15+4);
 
 //        keywordsGrid.setAdapter(new TemplatesAdapter(getContext(), keywords));
         keywordsGrid.setAdapter(new ArrayAdapter<String>(getContext(), R.layout.templates_item ,keywords));
@@ -175,7 +175,7 @@ public class TemplatesView extends RelativeLayout {
                 count = ss.length();
             }
         }
-        keywordsGrid.setColumnWidth(count*15);
+        keywordsGrid.setColumnWidth(count*15+4);
 
 //        operatorsGrid.setAdapter(new TemplatesAdapter(getContext(), operators));
         operatorsGrid.setAdapter(new ArrayAdapter<String>(getContext(), R.layout.templates_item , operators));
@@ -194,7 +194,7 @@ public class TemplatesView extends RelativeLayout {
             }
         }
 
-        operatorsGrid.setColumnWidth(count*15);
+        operatorsGrid.setColumnWidth(count*15+4);
 
 //        typesGrid.setAdapter(new TemplatesAdapter(getContext(), types));
         typesGrid.setAdapter(new ArrayAdapter<String>(getContext(), R.layout.templates_item ,types));
@@ -212,7 +212,7 @@ public class TemplatesView extends RelativeLayout {
                 count = ss.length();
             }
         }
-        typesGrid.setColumnWidth(count*15);
+        typesGrid.setColumnWidth(count*15+4);
     }
 
     private class TemplatesAdapter extends BaseAdapter {
