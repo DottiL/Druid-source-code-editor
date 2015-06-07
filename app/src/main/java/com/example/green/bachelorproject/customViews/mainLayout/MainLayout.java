@@ -76,16 +76,10 @@ public class MainLayout extends LinearLayout {
                     if(keyboard) {
                         EventBus.getDefault().post(new KeyboardEvent(false, true));
                         keyboard = false;
-                        wasOpen = true;
 
                     }
 
                     if(current != null) {
-                        if(wasOpen) {
-                            EventBus.getDefault().post(new KeyboardEvent(true, true));
-                            keyboard = true;
-                            wasOpen = false;
-                        }
                         current.setVisibility(View.GONE);
                         current = null;
 
